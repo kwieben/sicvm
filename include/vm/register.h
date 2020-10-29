@@ -22,11 +22,10 @@
 #define _REGISTER_H_
 
 //Registers in SIC
-int A;  //Accumulator
+int REG_A;  //Accumulator
 int X;  //Index Register
 int L;  //Linkage Register
 int PC; //Program Counter
 int SW; //Status Word
-
 
 #endif
